@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1006156959815-u44lqcegamh0uvjssmfdn20b1m7v66kd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1006156959815-u44lqcegamh0uvjssmfdn20b1m7v66kd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAcjKLSsV5rw37nknY5tRQDQ2ixJ3y28K4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1006156959815</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>melvinasare.CovidTestKit</string>
+	<key>PROJECT_ID</key>
+	<string>covidtest999i9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>covidtest999i9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1006156959815:ios:ec5fe5bc326e593f7ba162</string>
+	<key>DATABASE_URL</key>
+	<string>https://covidtest999i9.firebaseio.com</string>
+</dict>
+</plist>
