@@ -13,23 +13,6 @@ class PreviewViewController: CollapsibleTableSectionViewController {
     
     private let tableViewData = ResultsData.allResultsData()
     
-    //    lazy var bulletinManager: BLTNItemManager = {
-    //        let rootItem: BLTNItem = configureUI()
-    //        return BLTNItemManager(rootItem: rootItem)
-    //    }()
-    //
-    //
-    //    func configureUI() -> BLTNItem {
-    //        let page = BLTNPageItem(title: "Push Notifications")
-    //        page.image = UIImage(named: "")
-    //        page.descriptionText = "Receive push notifications when new photos of pets are available."
-    //        page.actionButtonTitle = "Subscribe"
-    //        page.alternativeButtonTitle = "Not now"
-    //
-    //        bulletinManager.showBulletin(above: self)
-    //        return page
-    //    }
-    
     var twoDimentionalArray = [
         ["Your Score is high, you may currently have Covid-19",
          "Take Vitamin C Tablets",
@@ -54,21 +37,9 @@ class PreviewViewController: CollapsibleTableSectionViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         self.delegate = self
-        var button = UIButton(type: .infoLight)
-        button.backgroundColor = .red
-        button.translatesAutoresizingMaskIntoConstraints = false
         //   bulletinManager.showBulletin(above: self)
-        
-        view.addSubview(button)
     }
 }
-
-
-
-
-
-
-
 
 
 extension PreviewViewController: CollapsibleTableSectionDelegate {
@@ -91,19 +62,7 @@ extension PreviewViewController: CollapsibleTableSectionDelegate {
         return true
     }
     
-    func tieMyShow() {
-        tieMyShoe2(size: 8)
-    }
-    
-    func tieMyShoe2(size: Int) {
   
-    }
-    
-    func tieMyShoeAndGiveMeANewOne() -> Bool {
-        return true
-    }
-    
-    
     func collapsibleTableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
         if section == 0 {

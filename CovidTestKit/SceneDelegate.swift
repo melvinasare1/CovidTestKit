@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                          self.window = window
                          window.makeKeyAndVisible()
               
-                         let viewController = PreviewViewController()
+                         let viewController = OnboardingPage()
                          let navigationController = UINavigationController(rootViewController: viewController)
                          window.rootViewController = navigationController
                      }

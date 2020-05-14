@@ -6,13 +6,11 @@ target 'CovidTestKit' do
   use_frameworks!
 
   # Pods for CovidTestKit
+ 
     pod 'lottie-ios'
     pod 'Hue'
     pod 'DynamicColor'
-    pod 'Firebase/Analytics'
-    pod 'Firebase/Core'
     pod 'Firebase/Auth'
-    pod 'Firebase/Database'
     pod 'CollapsibleTableSectionViewController', '~> 2.0.1'
     pod 'BATabBarController', '~> 2.0.0'
     pod 'BulletinBoard'
